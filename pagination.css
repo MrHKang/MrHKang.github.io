@@ -1,0 +1,32 @@
+.pagination {
+    padding-left: 400px;
+    margin: 0;
+}
+
+.pagination span {
+    display: inline-block;
+    vertical-align: middle;
+    min-width: 28px;
+    height: 28px;
+    line-height: 29px;
+    margin-right: 2px;
+    text-align: center;
+    background-color: #fff;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    font-family: Arial;
+    font-weight: 500;
+    border: 1px solid #dcdee2;
+    border-radius: 2px;
+}
+
+.pagination .active {
+    border-color: #2d8cf0;
+}
+
+.pagination .active a {
+    color: #2d8cf0;
+}
